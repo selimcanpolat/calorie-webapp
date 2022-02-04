@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calorie WebApp</title>
+</head>
+<body>
+
+<h1>The Calorie Calculator</h1>
+<p>Please enter the form below and click "Calculate" to get the result.</p>
+
+<form action="/calories" method="post">
+
+    {{calculatorform.age.label}}  {{calculatorform.age}}
+    <br>
+    {{calculatorform.weight.label}}  {{calculatorform.weight}}
+    <br>
+    {{calculatorform.height.label}}  {{calculatorform.height}}
+    <br>
+    {{calculatorform.country.label}}  {{calculatorform.country}}
+    <br>
+    {{calculatorform.city.label}}  {{calculatorform.city}}
+    <br>
+    <br>
+    {{calculatorform.button}}
+    <br>
+
+    {% if result %}
+    Your daily needed calorie is {{calorie_output}}
+    {% endif %}
+
+</form>
+
+</body>
+</html>
