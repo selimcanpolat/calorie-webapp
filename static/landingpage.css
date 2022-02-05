@@ -1,0 +1,18 @@
+h1 {
+    color: black;
+    font-size: 40px;
+    font-family: "Helvetica";
+}
+
+p {
+    color: black;
+    font-family: "Helvetica";
+}
+
+body {
+    background-color: SlateGrey;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}

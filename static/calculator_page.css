@@ -1,0 +1,29 @@
+h1 {
+    color: black;
+    font-size: 40px;
+    font-family: "Helvetica";
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 8px 8px;
+    margin: 10px 0px;
+}
+
+input[type=submit]{
+
+    width: 100%;
+    background-color: DarkBlue;
+    color: White;
+    padding: 12px 12px;
+    border: None;
+    border-radius: 6px;
+}
+
+body {
+    background-color: SlateGrey;
+    padding-top: 50px;
+    padding-right: 80px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
